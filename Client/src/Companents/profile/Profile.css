@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.profileBox{
+    background-color: antiquewhite;
+    width: 350px;
+    
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem;
+}
+.profileBox p{
+    padding: 5px;
+    font-size: 22px;
+    color: darkorchid;
+}
+.profileBox a > span{
+    text-align: end;
+}
+h2{
+    margin-bottom: 1rem;
+}

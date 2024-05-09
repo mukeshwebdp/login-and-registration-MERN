@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.loginBox{
+    width: 100%;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+.loginBox h2{
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 5px;
+    padding: 3px 0;
+}
+.box label{
+    font-size: 18px;
+}
+.box input{
+    
+    font-size: 18px;
+    padding: 0.3rem 0.2rem;
+    outline: none;
+}
+
+.loginBox button{
+    width: 100%;
+    padding: 0.5rem 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(209, 9, 209);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.jumpCreate {
+    padding-top: 1rem;
+    font-size: 14px;
+    text-align: start;
+}
